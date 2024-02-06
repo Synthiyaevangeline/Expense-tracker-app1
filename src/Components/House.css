@@ -1,0 +1,72 @@
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.animation {
+  animation: fade-in 0.5s ease;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.input {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.button {
+  padding: 5px 10px;
+  background-color: #0a0a0a;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.house-tracker-container button:hover {
+  background-color: #e1e5ed9a;
+}
+
+.alert {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #ffcccb;
+  border: 1px solid #f77;
+  border-radius: 3px;
+  color: #721c24;
+}
+
+.analysis {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.analysis-card {
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-value {
+  font-size: 16px;
+}

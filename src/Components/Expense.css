@@ -1,0 +1,69 @@
+.expense-tracker-container {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.expense-tracker-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.expense-tracker-container h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.expense-tracker-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.expense-tracker-container input[type="text"],
+.expense-tracker-container input[type="number"],
+.expense-tracker-container select,
+.expense-tracker-container button {
+  width: calc(100% - 20px); /* Adjusted width */
+  padding: 8px; /* Reduced padding */
+  margin-bottom: 10px;
+  font-size: 14px; /* Reduced font size */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.expense-tracker-container input[type="date"] {
+  width: calc(100% - 22px);
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.expense-tracker-container button {
+  padding: 5px 10px;
+  background-color: #0c0c0c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 65px;
+}
+
+.expense-tracker-container button:hover {
+  background-color: #e8e9eb9a;
+}
+
+.expense-tracker-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.expense-tracker-container ul li {
+  margin-bottom: 10px;
+}
+
+.expense-tracker-container ul li button {
+  margin-left: 5px;
+}
